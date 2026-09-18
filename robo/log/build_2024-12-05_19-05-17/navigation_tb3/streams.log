@@ -1,0 +1,102 @@
+[0.269s] Invoking command in '/home/vatsan/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake /home/vatsan/robo/src/ros2_learners/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/vatsan/robo/install/navigation_tb3
+[1.069s] -- The C compiler identification is GNU 11.4.0
+[1.069s] -- The CXX compiler identification is GNU 11.4.0
+[1.069s] -- Detecting C compiler ABI info
+[1.070s] -- Detecting C compiler ABI info - done
+[1.070s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.071s] -- Detecting C compile features
+[1.071s] -- Detecting C compile features - done
+[1.071s] -- Detecting CXX compiler ABI info
+[1.071s] -- Detecting CXX compiler ABI info - done
+[1.071s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.071s] -- Detecting CXX compile features
+[1.071s] -- Detecting CXX compile features - done
+[1.072s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.072s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.072s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.072s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.072s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.073s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.073s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.073s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.073s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.073s] -- Found FastRTPS: /opt/ros/humble/include
+[1.073s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.074s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.074s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.074s]   CMake.
+[1.074s] 
+[1.074s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.075s]   to tell CMake that the project requires at least <min> but has been updated
+[1.075s]   to work with policies introduced by <max> or earlier.
+[1.075s] 
+[1.075s] [0m
+[1.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.112s] -- Found Threads: TRUE
+[1.217s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.276s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.469s] -- Configuring done (1.1s)
+[1.487s] -- Generating done (0.0s)
+[1.491s] -- Build files have been written to: /home/vatsan/robo/build/navigation_tb3
+[1.506s] Invoked command in '/home/vatsan/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake /home/vatsan/robo/src/ros2_learners/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/vatsan/robo/install/navigation_tb3
+[1.506s] Invoking command in '/home/vatsan/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake --build /home/vatsan/robo/build/navigation_tb3 -- -j8 -l8
+[1.632s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o[0m
+[1.648s] [ 50%] Built target ament_cmake_python_copy_navigation_tb3
+[2.368s] running egg_info
+[2.368s] creating navigation_tb3.egg-info
+[2.368s] writing navigation_tb3.egg-info/PKG-INFO
+[2.369s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[2.369s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[2.369s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[2.369s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[2.369s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[2.413s] [ 50%] Built target ament_cmake_python_build_navigation_tb3_egg
+[9.193s] [100%] [32m[1mLinking CXX executable pub_occupancy_grid[0m
+[9.844s] [100%] Built target pub_occupancy_grid
+[9.864s] Invoked command in '/home/vatsan/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake --build /home/vatsan/robo/build/navigation_tb3 -- -j8 -l8
+[10.107s] Invoking command in '/home/vatsan/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake --install /home/vatsan/robo/build/navigation_tb3
+[10.338s] -- Install configuration: ""
+[10.338s] -- Installing: /home/vatsan/robo/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[10.344s] -- Set non-toolchain portion of runtime path of "/home/vatsan/robo/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid" to ""
+[10.344s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/launch
+[10.344s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[10.344s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[10.344s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[10.345s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[10.346s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.346s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[10.346s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[10.347s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.347s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3
+[10.347s] -- Installing: /home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[10.414s] Listing '/home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[10.414s] Compiling '/home/vatsan/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py'...
+[10.416s] -- Installing: /home/vatsan/robo/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[10.422s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/package.dsv
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[10.423s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[10.429s] -- Installing: /home/vatsan/robo/install/navigation_tb3/share/navigation_tb3/package.xml
+[10.429s] Invoked command in '/home/vatsan/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/vatsan/.local/bin/cmake --install /home/vatsan/robo/build/navigation_tb3

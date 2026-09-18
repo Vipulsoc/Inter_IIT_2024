@@ -1,0 +1,79 @@
+[1.657s] Invoking command in '/home/vatsan/robo/src/ros2_learners/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vatsan/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/vatsan/robo/build/my_robot_controller/build install --record /home/vatsan/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[2.285s] running egg_info
+[2.290s] creating ../../../build/my_robot_controller/my_robot_controller.egg-info
+[2.290s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.291s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.291s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.291s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.291s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[2.292s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.298s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.302s] adding license file 'LICENSE'
+[2.303s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.303s] running build
+[2.303s] running build_py
+[2.305s] creating /home/vatsan/robo/build/my_robot_controller/build
+[2.305s] creating /home/vatsan/robo/build/my_robot_controller/build/lib
+[2.306s] creating /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.306s] copying my_robot_controller/keras_ddpg.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.306s] copying my_robot_controller/DDPG.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.306s] copying my_robot_controller/ddpg.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.307s] copying my_robot_controller/GazeboEnv (copy).py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.308s] copying my_robot_controller/simplified_q.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.309s] copying my_robot_controller/common_definitions.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.309s] copying my_robot_controller/_Utils.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.312s] copying my_robot_controller/__init__.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.312s] copying my_robot_controller/q_learning.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.312s] copying my_robot_controller/Utils.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.312s] copying my_robot_controller/updated_keras_ddpg.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.312s] copying my_robot_controller/GazeboEnv.py -> /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller
+[2.314s] running install
+[2.318s] running install_lib
+[2.319s] creating /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.320s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/keras_ddpg.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.321s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/DDPG.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.323s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/ddpg.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.323s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/GazeboEnv (copy).py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.323s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/simplified_q.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.323s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/common_definitions.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.324s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/_Utils.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.324s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.324s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/q_learning.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.325s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/Utils.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.326s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/updated_keras_ddpg.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.327s] copying /home/vatsan/robo/build/my_robot_controller/build/lib/my_robot_controller/GazeboEnv.py -> /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.337s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/keras_ddpg.py to keras_ddpg.cpython-310.pyc
+[2.342s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/DDPG.py to DDPG.cpython-310.pyc
+[2.357s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ddpg.py to ddpg.cpython-310.pyc
+[2.359s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/GazeboEnv (copy).py to GazeboEnv (copy).cpython-310.pyc
+[2.365s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/simplified_q.py to simplified_q.cpython-310.pyc
+[2.367s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/common_definitions.py to common_definitions.cpython-310.pyc
+[2.374s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/_Utils.py to _Utils.cpython-310.pyc
+[2.374s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[2.374s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/q_learning.py to q_learning.cpython-310.pyc
+[2.384s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Utils.py to Utils.cpython-310.pyc
+[2.386s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/updated_keras_ddpg.py to updated_keras_ddpg.cpython-310.pyc
+[2.394s] byte-compiling /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/GazeboEnv.py to GazeboEnv.cpython-310.pyc
+[2.399s] running install_data
+[2.399s] creating /home/vatsan/robo/install/my_robot_controller/share/ament_index
+[2.399s] creating /home/vatsan/robo/install/my_robot_controller/share/ament_index/resource_index
+[2.399s] creating /home/vatsan/robo/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.399s] copying resource/my_robot_controller -> /home/vatsan/robo/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.399s] copying package.xml -> /home/vatsan/robo/install/my_robot_controller/share/my_robot_controller
+[2.399s] running install_egg_info
+[2.403s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[2.405s] running install_scripts
+[2.441s] Installing DDPG script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.441s] Installing common_def script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.441s] Installing ddpg script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.441s] Installing draw_circle script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing number_count script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing number_publish script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing pose_publish script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing pose_subscribe script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing q_learning script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing reset_count script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing test_node script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.442s] Installing updated_keras_ddpg script to /home/vatsan/robo/install/my_robot_controller/lib/my_robot_controller
+[2.445s] writing list of installed files to '/home/vatsan/robo/build/my_robot_controller/install.log'
+[2.492s] Invoked command in '/home/vatsan/robo/src/ros2_learners/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vatsan/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vatsan/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/vatsan/robo/build/my_robot_controller/build install --record /home/vatsan/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
