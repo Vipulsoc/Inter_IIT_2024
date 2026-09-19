@@ -1,11 +1,11 @@
 
-# 🤖 Robo: Multi-Robot System with RL, 3D Mapping & LLM Integration
+#  Robo: Multi-Robot System with RL, 3D Mapping & LLM Integration
 
 A modular robotics project designed for ROS 2 Humble, integrating multi-robot coordination, real-time 3D mapping, task allocation using reinforcement learning, and natural language processing via OpenAI’s LLMs.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /robo  
